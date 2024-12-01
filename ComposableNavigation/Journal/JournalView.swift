@@ -39,7 +39,7 @@ struct JournalView: View {
         }
     }
     
-    func GoalsSection() -> some View {
+    private func GoalsSection() -> some View {
         Section(
             content: {
                 Text("You haven't add a goal yet")
@@ -54,7 +54,7 @@ struct JournalView: View {
         )
     }
     
-    var gratitudeSection: some View {
+    private var gratitudeSection: some View {
         Section(
             content: {
                 Text("You haven't added a gratitude yet")
